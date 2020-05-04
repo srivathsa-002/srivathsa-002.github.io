@@ -1,0 +1,104 @@
+body {
+	overflow: auto;
+	color: brown;
+	background: skyblue;
+	font-size: 24px;
+}
+
+#home {
+	font-size: 32px;
+	font-family: cursive;
+	text-align: center;
+}
+
+h2 {
+	font-size: 32px;
+	padding-bottom: 0.5em;
+	border-bottom: 2px solid black;
+}
+
+.nav {
+	top: 0;
+	width: 100%;
+	position: fixed;
+	z-index: 1;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-column-gap: 10px;
+}
+.nav a {
+	display: inline-block;
+	font-size: 30px;
+	font-weight: bold;
+	font-family: Helvetica;
+	text-align: center;
+	margin-left: 5px;
+	margin-right: 5px;
+	color: black;
+	border-radius: 5px;
+}
+
+.nav a:link {
+	background: #edd400;
+}
+
+
+.nav a:hover {
+	border: 1px solid;
+	color: white;
+	background: orange;
+}
+
+.nav a:active {
+	background: green;
+}
+
+#about a {
+	color: red;
+}
+
+#contact p {
+	color: red;
+	font-size: 25px;
+	text-align: center;
+}
+
+table {
+	background-image: url(../images/Post.jpg);
+	background-repeat: no-repeat;
+	backroung-size: cover;
+	margin-left: auto;
+	margin-right: auto;
+	border-collapse: collapse;
+	font-family: Helvetica,sans-serif;
+	width:50%;
+}
+
+caption {
+	color: rebeccapurple;
+	font-family: cursive;
+	font-weight: bold;
+	font-size: 30px;
+}
+
+tr {
+	color: white;
+	text-align:left;	
+}
+
+.submit {
+	background-color: rebeccapurple;
+	color: white;
+	font-size: 20px;
+}
+
+#submit {
+	text-align: center;
+}
+
+.images{
+	display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+}
